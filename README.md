@@ -24,6 +24,8 @@ In places where the project is not in control of its surroundings, it should mak
 
 The project should include as much of what it needs as it can, or ensure that its dependencies will be readily and easily available. It sould not require disproportionately large dependencies for minor things (ie. requiring a power drill or larger machinery, to drill a single hole for a single step).
 
+The project doesn't have to be responsible for everything itself, but it has to have an *answer* for everything, even if those answers are just suggestions for other elements to incorporate to solve the problem. (It needs to work *well* with those suggested things, though; you can't just fire off a guess that the first person to try will discover was a terrible idea.)
+
 ### Reversible
 
 Don't lock anybody into your specific way of doing things. Cooperate with other ecosystems. (This also ties into Extensibility.)
