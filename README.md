@@ -38,7 +38,7 @@ Don't make anything where, if the user / developer / operator / reader messes so
 
 The project should be released under a license that permits modification.
 
-The project should avoid connecting things that don't need to be connected, allowing them to be modularly replaced.
+Modularity is an important component of extensibility. Avoiding connecting things that don't need to be connected allows them to be upgraded and replaced piece-by-piece. Decoupling the assumptions of one part from the circumstances of another allows future improvements to resolve issues arising from those circumstances without breaking backwards compatibility.
 
 ### Descriptive
 
