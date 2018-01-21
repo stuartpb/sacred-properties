@@ -20,7 +20,7 @@ As [The Design of Everyday Things][] describes, people learn to use things most 
 
 Don't make stuff that runs on a $30000 machine just because you personally have access to one and you didn't feel like figuring out how to make it run on a $30 machine.
 
-Don't design stuff that relies on aspects of your particular environment, like a windowing system or authentication server that assume you're running specific computers on a specific kind of network developed exclusively for MIT. (thanks a lot, X11, you narrow-visioned piece of crufty legacy garbage)
+Don't design stuff that relies on aspects of your particular environment, like a windowing system / authentication server / text editor that assume you're running specific computers with specific keyboards on a specific kind of network developed exclusively for MIT.
 
 ### Comprehensive
 
