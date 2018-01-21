@@ -8,7 +8,7 @@ The letters in SACRED stand for **S**traightforward, **A**ccessible, **C**ompreh
 
 Nothing in the system should be made more complicated than it needs to be to safely function. If there's a wall that would have no purpose other than to obscure the inner workings from the user, you leave it out: machinery you can see and understand is *far* more beautiful than some bland decoration standing in the way and making the thing harder to repair.
 
-Keeping your design straightforward and transparent avoids running afoul of [The Law of Leaky Abstractions][], where attempts to make things *appear simpler* often result in working with them becoming *more complex*. As the "New Jersey approach" of [Worse is Better][] holds, the most important factor in creating a useful design is the simplicity of its implementation.
+Keeping your design straightforward and transparent avoids running afoul of [The Law of Leaky Abstractions][], where attempts to make things *appear simpler* often result in working with them becoming *more complex*. As the "New Jersey approach" of [Worse is Better][] holds, the guiding factor when designing an interface to be useful should be the simplicity of its implementation.
 
 As [The Design of Everyday Things][] describes, people learn to use things most naturally by watching them work: the harder you make it to understand, the harder it'll be to use (and to extend, and to reverse, and to describe... an affront to the whole methodology, really).
 
