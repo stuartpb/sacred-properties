@@ -40,7 +40,15 @@ Don't make anything where, if the user / developer / operator / reader messes so
 
 ### Extensible
 
-The project should be released under a license that permits modification.
+The project *must* be released under a license that permits modification. *Every* tenet of SACRED requires that the project's sources are *available* (pending a rewrite to integrate this aspect, see [issue #4][] for elaboration): however, without the ability to make *extensions*, a project cannot be fully SACRED.
+
+However, merely *not forbidding* derivative work does not make a project extensible. *Every* piece of work produced produce the finished product should be published. Any part of a project than cannot be easily remade is a part that cannot be easily modified.
+
+For project artifacts, the process used to generate them should be included, either as source code (when they're produced by automation) or as a thoroughly-documented, reproducible process (when they are produced manually or through a manually-operated interface). While these processes are important for the purposes of extensibility, these processes are *especially* important when these artifacts cannot be published (because they're too large, or patent/license/copyright-encumbered), where they are necessary to be able to remake the project.
+
+In cases where the processes to create the artifacts and/or the artifacts themselves can't be provided (eg. if they were the results of reckless experimentation, or too closely woven in to a greater monolith, or would be tantamount to confessing an infraction of international law, or have simply been lost to time), the artifact itself, in form and in function, should be described in as much detail as possible, including the reason for its absence.
+
+[issue #4]: https://github.com/stuartpb/sacred-tenets/issues/4
 
 Modularity is an important component of extensibility. Avoiding connecting things that don't need to be connected allows them to be upgraded and replaced piece-by-piece. Decoupling the assumptions of one part from the circumstances of another allows future improvements to resolve issues arising from those circumstances without breaking backwards compatibility.
 
@@ -49,6 +57,8 @@ Modularity is an important component of extensibility. Avoiding connecting thing
 Don't use slang and jargon that isn't explicitly explained to outsiders in some kind of public Jargon File (and even then, don't get too attached to any one way of saying anything).
 
 Document **everything**. While you're working on the final release, publish your rough drafts (and keep them available for development insight). If you have a choice between being messy and being completely silent (because you don't have time to clean what you've got up), be messy - the worst that can happen (so long as you're clear about what you're being messy about) is it gets ignored. With luck, someone will be able to take at least *something* from your messy work and use it (hopefully you'll be alive for them to ask you for better details), and maybe they'll even be able to clean up the things you disn't have time to polish in the time that *they do* have.
+
+The *history* of a project, describing every momentary limitation and design decision within its evolution, can be just as important as its latest "finished" release (if not more so). Every patch, every *reversion* of a patch, every failed experiment, should be a matter of public record. These historical details can (and should) be provided through version control (ie. Git), but any assets etc. required to *build the latest version* should be included as part of its current source tree.
 
 Whenever possible, though, you should edit your rough drafts to make sure that they're easy to follow (this also overlaps with Accessibility).
 
